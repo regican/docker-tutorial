@@ -6,22 +6,22 @@ So you have Node apps, and you want to use them with Docker. This repository is 
 
 ## Installation Guide (Mac OS X)
 
-# Install [VirtualBox](https://www.virtualbox.org/)
-# Install [Docker Toolbox](https://docs.docker.com/engine/installation/mac/)
-## Do the following in your terminal
-## Create a new Docker VirtualBox
-##* $ docker-machine create --driver "virtualbox" dockerMe
-## Power on thew new Docker VitrualBox
-##* $ docker-machine start dockerMe
-## Configure your Docker env
-##* $ eval "$(docker-machine env dockerMe)"
-## Now lets add it to your bash profile at (~/.bash_profile)
-##* eval "$(docker-machine env dockerMe)"
+1. Install [VirtualBox](https://www.virtualbox.org/)
+2. Install [Docker Toolbox](https://docs.docker.com/engine/installation/mac/)
+3. Do the following in your terminal
+  1. Create a new Docker VirtualBox
+    * docker-machine create --driver "virtualbox" dockerMe
+  2. Power on thew new Docker VitrualBox
+    * docker-machine start dockerMe
+  3. Configure your Docker env
+    * eval "$(docker-machine env dockerMe)"
+  4. Now lets add it to your bash profile at (~/.bash_profile)
+    * eval "$(docker-machine env dockerMe)"
 
 
 ## Docker Tutorials
 
-# Basics & Setup [https://www.youtube.com/watch?v=pGYAg7TMmp0&list=PLoYCgNOIyGAAzevEST2qm2Xbe3aeLFvLc](https://www.youtube.com/watch?v=pGYAg7TMmp0&list=PLoYCgNOIyGAAzevEST2qm2Xbe3aeLFvLc)
+Basics & Setup [https://www.youtube.com/watch?v=pGYAg7TMmp0&list=PLoYCgNOIyGAAzevEST2qm2Xbe3aeLFvLc](https://www.youtube.com/watch?v=pGYAg7TMmp0&list=PLoYCgNOIyGAAzevEST2qm2Xbe3aeLFvLc)
 
 ## Authors and Contributors
 
